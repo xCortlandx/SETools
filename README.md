@@ -2,8 +2,6 @@ A .SE format import / export plugin for Maya (2022+)
 
 .SE formats are open-sourced formats optimized for next-generation modeling and animation. They are free to be used in any project, game, software, etc with the hopes that people will adapt the standard unlike other formats available.
 
-Animation format documentation: Specification
-Model format documentation: Coming soon
 Installation:
 Download the latest seanim.py, semodel.py and SEToolsPlugin.py from the repo and save them in the following directory depending on your OS and Maya version:
 
@@ -17,12 +15,12 @@ Replace the files in the correct directory from the installation section with th
 
 Usage:
 Animations:
-
 To import an anim use "SE Tools -> Import SEAnim File" or drag and drop a file, this will import an anim onto an already binded scene.
 To export, either select the bones to use (or select none for all), set the end scene time to the animation end time, then use "SE Tools -> Export SEAnim File" this will export the animation to a .seanim file.
 To place a notetrack use "SE Tools -> Edit Notetracks" this will open a menu for editing notetracks and removing them.
-Models:
+Note: Use the import menu option and not drag-drop, it can cause excess blank frames.
 
+Models:
 To import a model use "SE Tools -> Import SEModel File" or drag and drop a file, this will import a binded model with it's materials.
 To export, either select the bones / meshes to use (or select none for all), then use "SE Tools -> Export SEModel File" this will export the model to a .semodel file.
 
